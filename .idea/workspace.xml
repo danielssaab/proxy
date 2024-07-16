@@ -5,12 +5,27 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="58203225-9568-44ba-82e7-1110bf2cdcb6" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/src/main/java/IServicoRastreamento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ServicoRastreamento.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ServicoRastreamento.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ServicoRastreamentoProxy.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ServicoRastreamentoProxy.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ServicoRastreamentoReal.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/ServicoRastreamentoProxyTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/ServicoRastreamentoProxyTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Interface" />
+        <option value="Class" />
+        <option value="JUnit5 Test Class" />
+      </list>
+    </option>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -19,7 +34,9 @@
   "associatedIndex": 0
 }]]></component>
   <component name="ProjectId" id="2jIpIDEsvstPOt198pZBLgP0Siu" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
@@ -28,9 +45,71 @@
   "keyToString": {
     "RunOnceActivity.OpenProjectViewOnStart": "true",
     "RunOnceActivity.ShowReadmeOnStart": "true",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary": "JUnit5",
+    "com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrarySuperClass.JUnit5": "",
     "git-widget-placeholder": "master"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.Recents.Supers">
+      <recent name="" />
+    </key>
+    <key name="CreateTestDialog.RecentsKey">
+      <recent name="" />
+    </key>
+  </component>
+  <component name="RunManager" selected="JUnit.IServicoRastreamentoProxyTest">
+    <configuration name="ServicoRastreamentoProxyTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="proxy" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ServicoRastreamentoProxyTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServicoRastreamentoProxyTest.deveRetornarHistoricoCompletoParaFuncionario" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="proxy" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ServicoRastreamentoProxyTest" />
+      <option name="METHOD_NAME" value="deveRetornarHistoricoCompletoParaFuncionario" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServicoRastreamentoProxyTest.deveRetornarLocalizacaoAtualParaAdmin" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="proxy" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ServicoRastreamentoProxyTest" />
+      <option name="METHOD_NAME" value="deveRetornarLocalizacaoAtualParaAdmin" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ServicoRastreamentoProxyTest.deveRetornarLocalizacaoAtualParaCliente" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="proxy" />
+      <option name="PACKAGE_NAME" value="" />
+      <option name="MAIN_CLASS_NAME" value="ServicoRastreamentoProxyTest" />
+      <option name="METHOD_NAME" value="deveRetornarLocalizacaoAtualParaCliente" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.IServicoRastreamentoProxyTest" />
+        <item itemvalue="JUnit.IServicoRastreamentoProxyTest.deveRetornarLocalizacaoAtualParaAdmin" />
+        <item itemvalue="JUnit.IServicoRastreamentoProxyTest.deveRetornarLocalizacaoAtualParaCliente" />
+        <item itemvalue="JUnit.IServicoRastreamentoProxyTest.deveRetornarHistoricoCompletoParaFuncionario" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">

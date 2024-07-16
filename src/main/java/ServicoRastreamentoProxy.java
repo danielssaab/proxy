@@ -1,10 +1,10 @@
 import java.util.List;
 
-public class ServicoRastreamentoProxy implements ServicoRastreamento {
+public class ServicoRastreamentoProxy implements IServicoRastreamento {
 	private boolean isAdmin;
-	private ServicoRastreamentoReal servicoReal;
+	private ServicoRastreamento servicoReal;
 
-	public ServicoRastreamentoProxy(boolean isAdmin, ServicoRastreamentoReal servicoReal) {
+	public ServicoRastreamentoProxy(boolean isAdmin, ServicoRastreamento servicoReal) {
 		this.isAdmin = isAdmin;
 		this.servicoReal = servicoReal;
 	}

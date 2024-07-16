@@ -9,14 +9,14 @@ import static org.junit.jupiter.api.Assertions.assertThrows;
 
 public class ServicoRastreamentoProxyTest {
 
-	private ServicoRastreamentoReal servicoReal;
+	private ServicoRastreamento servicoReal;
 	private ServicoRastreamentoProxy servicoProxyAdmin;
 	private ServicoRastreamentoProxy servicoProxyCliente;
 
 	@BeforeEach
 	void setUp() {
 		// Criar uma única instância de ServicoRastreamentoReal
-		servicoReal = new ServicoRastreamentoReal();
+		servicoReal = new ServicoRastreamento();
 
 		// Criar proxies para admin e cliente, passando a mesma instância de ServicoRastreamentoReal
 		servicoProxyAdmin = new ServicoRastreamentoProxy(true, servicoReal);
